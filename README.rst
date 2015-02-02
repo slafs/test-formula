@@ -1,6 +1,6 @@
-====
-test
-====
+===========
+testsaltssh
+===========
 
 demonstration of salt-ssh bug
 
@@ -16,4 +16,4 @@ Available states
 .. contents::
     :local:
 
-``test``
+``testsaltssh``

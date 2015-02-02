@@ -1,6 +1,3 @@
-test:
+testsaltssh:
   lookup:
-    pkg: mytest
-    conf_file: /usr/local/etc/test/test.conf
-  config:
-    key: othervalue
+    variable: other

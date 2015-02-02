@@ -1,8 +1,0 @@
-{% set test = salt['grains.filter_by']({
-    'Debian': {
-        'variable': 'debian',
-    },
-    'RedHat': {
-        'variable': 'redhat',
-    },
-}, grain='os_family', merge=salt['pillar.get']('test:lookup')) %}
